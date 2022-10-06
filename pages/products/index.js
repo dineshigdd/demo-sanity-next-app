@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from '../../styles/Home.module.css'
-import { sanityClient } from '../../utility/sanity/client';
+import { sanityClient } from '../../utility/client';
 
 function ProductList( { products }){
     return( 
